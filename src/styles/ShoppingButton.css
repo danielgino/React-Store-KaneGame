@@ -1,0 +1,50 @@
+.shopping-btn {
+    background-color: #3c3a3a; 
+    color: white; 
+    border: 3px; 
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    align-items: center; 
+    gap: 10px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+  }
+  .quantity-btn-container {
+    display: flex; 
+    align-items: center; 
+    gap: 2px; 
+    justify-content: center; 
+    width: 100%; 
+  }
+  
+  .quantity-btn {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+    text-align: center; 
+    font-weight: bold; 
+    border: none; 
+  }
+    .shopping-btn:hover {
+    background-color: #ffffff; 
+    color: black;
+  }
+  
+ 
+  .btn-text {
+    font-weight: bold;
+    text-align: center;
+  }
+  .success-message{
+    font-weight: bold;
+    text-align: center;
+    color: green;
+  }
+  

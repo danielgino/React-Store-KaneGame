@@ -1,0 +1,45 @@
+/* Store.css */
+
+/* Container for the ScrollBar */
+.scrollbar-container {
+    width: 300px; 
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #4d4848; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  select {
+    width: 100%; 
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    background-color: #fff; 
+    color: #333; 
+    transition: border-color 0.3s ease; 
+  }
+  
+  select:focus {
+    border-color: #3498db; 
+    outline: none; 
+  }
+  
+
+  option {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+
+  select:hover {
+    cursor: pointer;
+    border-color: #2980b9; 
+  }
+  
+  .scrollbar-container select {
+    margin-top: 10px;
+  }
+  

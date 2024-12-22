@@ -1,0 +1,13 @@
+body {
+  background-image: url('./images/Background.jpg');
+  background-size: cover;   /* מתאימה את התמונה לגודל המסך */
+  background-position: center; /* ממקם את התמונה במרכז */
+  background-attachment: fixed; /* מחזיק את התמונה במקום כשהגולל */
+  height: 100vh; /* תוודא שהגובה של body מכסה את כל המסך */
+  margin: 0; /* מבטל רווחים ברירת מחדל */
+  font-family: "Arial", sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
