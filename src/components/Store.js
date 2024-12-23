@@ -6,7 +6,6 @@ import ScrollBar from "./ScrollBar";
 function Store(){
 
     const [products,setProducts]=useState([]);
-    const [loading,setLoading]=useState(true);
     const [copyArr, setCopyArr] = useState([]);
 useEffect(()=>{
     //https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15
@@ -23,7 +22,6 @@ useEffect(()=>{
             }))
             setProducts(formatGames)
             setCopyArr([...formatGames])
-            setLoading(false)
         }catch(error) {
         console.log(error)
 
